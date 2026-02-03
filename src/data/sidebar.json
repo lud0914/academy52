@@ -1,0 +1,53 @@
+{
+  "topics": [
+    {
+      "label": "Home",
+      "link": "/",
+      "items": [
+        {
+          "label": "Welcome",
+          "autogenerate": {},
+          "items": []
+        },
+        {
+          "label": "good",
+          "autogenerate": {},
+          "items": [
+            {
+              "label": "test",
+              "slug": "test",
+              "autogenerate": {}
+            },
+            {
+              "label": "신기하네",
+              "slug": "신기하네",
+              "autogenerate": {}
+            },
+            {
+              "label": "2depth",
+              "slug": "home/good/2depth",
+              "autogenerate": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Guides",
+      "link": "/guides/example/",
+      "items": [
+        {
+          "label": "Example Guide",
+          "autogenerate": {},
+          "items": [
+            {
+              "label": "Showcase",
+              "slug": "guides/example",
+              "autogenerate": {}
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

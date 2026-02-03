@@ -1,6 +1,43 @@
-@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css");
+/* Font imported in Head.astro */
 
-* {
-    --sl-font-family: "Pretendard Variable" !important;
-    --pagefind-ui-font: "Pretendard Variable" !important;
+:root {
+    --sl-font: "Pretendard", sans-serif !important;
+}
+
+/* Fallback/Override just in case */
+body {
+    font-family: "Pretendard", sans-serif !important;
+    line-height: 1.6 !important;
+}
+
+/* Increase readability for content */
+/* .sl-markdown-content p,
+.sl-markdown-content li {
+    line-height: 1.6;
+} */
+
+/* Reduce heading sizes (~15% smaller) */
+
+.sl-container h1 {
+    font-size: 2.2rem !important;
+}
+
+.sl-markdown-content h1 {
+    font-size: 2.2rem !important;
+}
+
+.sl-markdown-content h2 {
+    font-size: 1.8rem !important;
+}
+
+.sl-markdown-content h3 {
+    font-size: 1.5rem !important;
+}
+
+.sl-markdown-content h4 {
+    font-size: 1.25rem !important;
+}
+
+.sl-markdown-content h5 {
+    font-size: 1.1rem !important;
 }

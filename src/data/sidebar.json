@@ -1,48 +1,33 @@
 {
   "topics": [
     {
-      "label": "Home",
+      "label": "🏠 Home",
       "link": "/",
       "items": [
         {
-          "label": "Welcome",
+          "label": "안녕하세요.",
+          "slug": "/",
           "autogenerate": {},
           "items": []
-        },
-        {
-          "label": "good",
-          "autogenerate": {},
-          "items": [
-            {
-              "label": "test",
-              "slug": "test",
-              "autogenerate": {}
-            },
-            {
-              "label": "신기하네",
-              "slug": "신기하네",
-              "autogenerate": {}
-            },
-            {
-              "label": "2depth",
-              "slug": "home/good/2depth",
-              "autogenerate": {}
-            }
-          ]
         }
       ]
     },
     {
-      "label": "Guides",
-      "link": "/guides/example/",
+      "label": "📊 Google Analytics4",
+      "link": "/ga4",
       "items": [
         {
-          "label": "Example Guide",
+          "label": "introduce",
           "autogenerate": {},
           "items": [
             {
-              "label": "Showcase",
-              "slug": "guides/example",
+              "label": "Google Analytics를 배워야 하는 이유",
+              "slug": "ga4/introduce/why-you-should-learn-google-analytics",
+              "autogenerate": {}
+            },
+            {
+              "label": "분석툴으 도입하기 전 알아야 할 사항",
+              "slug": "ga4/introduce/common-misconceptions-when-starting-google-analytics-4",
               "autogenerate": {}
             }
           ]

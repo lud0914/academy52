@@ -3,7 +3,10 @@ import { config, fields, collection, singleton } from '@keystatic/core';
 export default config({
     storage: {
         kind: 'github',
-        repo: 'lud0914/academy52',
+        repo: {
+              owner: 'lud0914',
+              name: 'academy52',
+        },
     },
     singletons: {
         sidebar: singleton({

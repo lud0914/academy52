@@ -26,6 +26,52 @@
     color: #d97757 !important;
 }
 
+/* Waline Input Customization */
+[data-theme='light'] :root {
+    --waline-theme-color: #d97757 !important;
+    --waline-active-color: #d97757 !important;
+}
+
+/* Customize Input Backgrounds (Nickname, Mail, Link) */
+.wl-header input {
+    background-color: var(--sl-color-gray-6) !important;
+    border: 1px solid var(--sl-color-gray-5) !important;
+    color: var(--sl-color-text) !important;
+    padding: 0.25rem 0.5rem !important;
+    /* Reduce padding for height */
+    height: 2em !important;
+    /* Force smaller height */
+    /* font-size: 0.9em !important; */
+    /* Slightly smaller text */
+    max-width: 90%;
+    /* Prevent full width stretching if needed */
+    border-radius: 10px;
+}
+
+/* Adjust wrapper to allow smaller inputs if flex */
+.wl-header {
+    display: flex !important;
+    align-items: center !important;
+}
+
+.wl-header .wl-header-item {
+    display: flex !important;
+    align-items: center !important;
+    flex-basis: auto !important;
+    margin-right: 0.5rem;
+}
+
+[data-theme='light'] .wl-header input {
+    background-color: #f5f5f5 !important;
+    /* Slightly darker than main bg for inputs */
+    border-color: #e0e0e0 !important;
+}
+
+.wl-header input:focus {
+    border-color: #d97757 !important;
+    background-color: var(--sl-color-bg) !important;
+}
+
 [data-theme='dark'] {
     --sl-color-bg: #18181c;
     --sl-color-text-body: #dcdcdf;

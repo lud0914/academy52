@@ -2,12 +2,44 @@
 
 :root {
     --sl-font: "Pretendard", sans-serif !important;
+    --sl-color-accent: #d97757;
+    --sl-color-text-accent: #d97757;
+}
+
+[data-theme='light'] {
+    --sl-color-bg: #faf9f5;
+    --sl-color-bg-nav: #f0eee6;
+    --sl-color-text-body: #333333;
+    --sl-color-text-heading: #333333;
+}
+
+/* Sidebar active item override for Light Mode */
+[data-theme='light'] #starlight__sidebar a[aria-current='page'],
+[data-theme='light'] #starlight__sidebar a[aria-current='page']:hover,
+[data-theme='light'] #starlight__sidebar a[aria-current='page']:focus {
+    background-color: #f0eee6;
+    color: #d97757;
+}
+
+/* Topic Switcher active state override */
+[data-theme='light'] a.starlight-sidebar-topics-current {
+    color: #d97757 !important;
+}
+
+[data-theme='dark'] {
+    --sl-color-bg: #18181c;
+    --sl-color-text-body: #dcdcdf;
+    --sl-color-text-heading: #f4f4f5;
 }
 
 /* Fallback/Override just in case */
 body {
     font-family: "Pretendard", sans-serif !important;
     line-height: 1.6 !important;
+}
+
+.starlight-sidebar-topics-current {
+    color: #d97757 !important;
 }
 
 /* Increase readability for content */

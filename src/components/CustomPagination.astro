@@ -1,10 +1,8 @@
 ---
 import type { Props } from '@astrojs/starlight/props';
 import DefaultPagination from '@astrojs/starlight/components/Pagination.astro';
-import Commento from './Commento.astro';
+import Waline from './Waline.astro';
 ---
 
 <DefaultPagination {...Astro.props} />
-<div style="margin-top: 4rem;">
-    <Commento />
-</div>
+<Waline />

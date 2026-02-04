@@ -110,15 +110,15 @@ export default defineConfig({
 
     integrations: [
         starlight({
-            title: 'My Docs',
+            title: 'Academy52',
             customCss: [
                 './src/styles/custom.css',
             ],
             components: {
                 Pagination: './src/components/CustomPagination.astro',
                 Head: './src/components/Head.astro',
+                SocialIcons: './src/components/SocialIcons.astro',
             },
-            social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
             plugins: [
                 starlightSidebarTopics(sidebarData.topics),
             ],

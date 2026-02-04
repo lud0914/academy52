@@ -1,0 +1,19 @@
+---
+---
+<div id="waline"></div>
+
+<script>
+  import { init } from '@waline/client';
+  import '@waline/client/style';
+
+  init({
+    el: '#waline',
+    serverURL: 'https://your-waline-server.vercel.app',
+  });
+</script>
+
+<style>
+  #waline {
+    margin-top: 4rem;
+  }
+</style>

@@ -4,8 +4,8 @@ export default config({
     storage: {
         kind: 'github',
         repo: {
-              owner: 'lud0914',
-              name: 'academy52',
+            owner: 'lud0914',
+            name: 'academy52',
         },
     },
     singletons: {
@@ -64,6 +64,12 @@ export default config({
                 description: fields.text({ label: 'Description' }),
                 content: fields.mdx({
                     label: 'Content',
+                    options: {
+                        image: {
+                            directory: 'src/assets/images',
+                            publicPath: '@assets/images/',
+                        },
+                    },
                 }),
             },
         }),

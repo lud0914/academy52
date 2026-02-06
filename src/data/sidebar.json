@@ -17,6 +17,11 @@
       "link": "/ga4",
       "items": [
         {
+          "label": "Google Analytics 요청 사항",
+           "slug": "ga4/request",
+           "autogenerate": {}
+        },
+        {
           "label": "introduce",
           "autogenerate": {},
           "items": [
@@ -32,11 +37,6 @@
             }
           ]
         },
-        {
-          "label": "Google Analytics 요청 사항",
-           "slug": "ga4/request",
-           "autogenerate": {}
-        }
       ]
     }
   ]
